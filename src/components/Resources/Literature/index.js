@@ -9,7 +9,7 @@ const Literature = () => {
             <ul className="recommendedList">
                 {content.BOOKS.map((BOOK, i) => {
                     return (
-                        <a className="recommendedLink" href={BOOK.LINK} target="_blank" key={i}>
+                        <a className="recommendedLink" href={BOOK.LINK} rel="noopener noreferrer" target="_blank" key={i}>
                             <li className="recommendedLi">
                                 <span className="bookTitle">{BOOK.TITLE}</span>
                                 <div className="authorContainer">

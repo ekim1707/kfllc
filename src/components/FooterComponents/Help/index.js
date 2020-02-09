@@ -21,7 +21,7 @@ const Help = () => {
                     <p className="subHeaderDescription">{content.VIDEO_DESCRIPTION}</p>
                     <h3 className="subHeaderLabel">{content.CONTACT_LABEL}</h3>
                     <p className="subHeaderDescription">{content.CONTACT_DESCRIPTION}</p>
-                    <div className="contactLinkContainer"><a href="https://www.linkedin.com/company/kim-family-llc/" target="_blank">{content.KFLLC_LINKED_IN}</a></div>
+                    <div className="contactLinkContainer"><a href="https://www.linkedin.com/company/kim-family-llc/" rel="noopener noreferrer" target="_blank">{content.KFLLC_LINKED_IN}</a></div>
                 </div>
                 <hr />
                 <div className="webDesignContentContainer">
@@ -29,7 +29,7 @@ const Help = () => {
                     <p className="subHeaderDescription">{content.WEB_DESIGN_DESCRIPTION}</p>
                     <p className="subHeaderDescription">{content.WEB_DESIGN_HELP}</p>
                     <p className="subHeaderDescription">{content.WEB_DESIGN_CONTACT}</p>
-                    <div className="contactLinkContainer"><a href="https://www.linkedin.com/in/eugene-kim-1707/" target="_blank">{content.EUGENE_LINKED_IN}</a></div>
+                    <div className="contactLinkContainer"><a href="https://www.linkedin.com/in/eugene-kim-1707/" rel="noopener noreferrer" target="_blank">{content.EUGENE_LINKED_IN}</a></div>
                 </div>
                 <hr />
                 <div className="signatureContainer">
