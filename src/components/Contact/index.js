@@ -35,7 +35,7 @@ const Contact = ({
             <form className="formContainer">
                 <div className="headerInputRow">
                     <div className="inputContainer">
-                        <InputField 
+                        <input
                             id="first_name"
                             className={((clickCount > 0) && (first_name.length === 0)) ? "errorField" : "inputField"}
                             onChange={onInputChange}
