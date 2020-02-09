@@ -3,6 +3,7 @@
 .footerNavContainer {
     position: relative;
     display: flex;
+    justify-content: center;
     background: $harvard-red;
     color: $main-1;
     .footerLinks {
