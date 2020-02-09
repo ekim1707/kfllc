@@ -61,7 +61,7 @@ export default {
             middle_name: `Seoyoung`,
             last_name: `Dove`,
             title: `Partner, Manager, Business Advisor`,
-            date_of_birth: `1983-11-16`,
+            date_of_birth: `1983-11-18`,
             occupation: `Founder/CEO of Spark Wonder Books`,
             education_1: `Swarthmore College`,
             education_2: `The London School of Economics`,
