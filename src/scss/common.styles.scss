@@ -15,6 +15,8 @@
 }
 
 .inputContainer {
+    position: relative;
+    padding-top: 20px;
     .inputField {
         max-width: 276px;
         width: 85%;
@@ -22,22 +24,48 @@
         margin-bottom: 10px;
         font-size: $font-size-normal;
         border-top: 2px solid $main-4;
+        border-bottom: 2px solid $main-4;
     }
     .inputField:focus {
         border-top: 2px solid $harvard-red-low-opacity;
+        border-bottom: 2px solid $harvard-red-low-opacity;
+    }
+    label {
+        position: absolute;
+        top: 0;
+        color: $main-4;
+        margin-bottom: 5px;
+        font-size: $font-size-small;
+    }
+    .inputField:focus + label {
+        color: $harvard-red-low-opacity;
     }
 }
 
 .textAreaContainer {
+    position: relative;
+    padding-top: 28px;
     .textArea {
         width: 100%;
-        height: 250px;
+        height: 200px;
         padding: 20px 0;
         font-size: $font-size-normal;
         border-top: 2px solid $main-4;
+        border-bottom: 2px solid $main-4;
     }
     .textArea:focus {
         border-top: 2px solid $harvard-red-low-opacity;
+        border-bottom: 2px solid $harvard-red-low-opacity;
+    }
+    label {
+        position: absolute;
+        left: 0;
+        top: 8px;
+        color: $main-4;
+        font-size: $font-size-small;
+    }
+    .textArea:focus + label {
+        color: $harvard-red-low-opacity;
     }
 }
 
@@ -65,10 +93,15 @@ textarea::placeholder {
     opacity: 30%;
 }
 
+.buttonContainer {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
 .submitButton {
     width: 20em;
     height: 3em;
-    margin-top: 10px;
+    margin-top: 5px;
     background: $harvard-red;
     color: $main-1;
     font-size: $font-size-normal;

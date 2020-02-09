@@ -37,50 +37,74 @@ const Contact = ({
                     <div className="inputContainer">
                         <InputField
                             id="first_name"
-                            className={((clickCount > 0) && (first_name.length === 0)) ? "errorField" : "inputField"}
+                            className="inputField"
                             onChange={onInputChange}
                             value={first_name}
-                            placeholder={content.FIRST_NAME}
                             hasIcon
                             iconPosition="right"
                             iconName="username_main_4"
                             style={
-                                ((clickCount > 0) && (first_name.length === 0)) ? { borderTop: "2px solid #ff0000" } : 
-                                ((clickCount > 0) && (first_name.length !== 0)) ? { borderTop: "2px solid #0080005b" } : {}
+                                ((clickCount > 0) && (first_name.length === 0)) ? { borderTop: "2px solid #ff0000", borderBottom: "2px solid #ff0000" } : 
+                                ((clickCount > 0) && (first_name.length !== 0)) ? { borderTop: "2px solid #0080005b", borderBottom: "2px solid #0080005b" } : {}
                             }
                         />
+                        <label 
+                            htmlFor="first_name"
+                            style={
+                                ((clickCount > 0) && (first_name.length === 0)) ? { color: "#ff0000" } : 
+                                ((clickCount > 0) && (first_name.length !== 0)) ? { color: "#0080005b" } : {}
+                            }
+                        >
+                            {content.FIRST_NAME}
+                        </label>
                     </div>
                     <div className="inputContainer">
                         <InputField 
                             id="last_name"
-                            className={((clickCount > 0) && (last_name.length === 0)) ? "errorField" : "inputField"}
+                            className="inputField"
                             onChange={onInputChange}
                             value={last_name}
-                            placeholder={content.LAST_NAME}
                             hasIcon
                             iconPosition="right"
                             iconName="username_main_4"
                             style={
-                                ((clickCount > 0) && (last_name.length === 0)) ? { borderTop: "2px solid #ff0000" } : 
-                                ((clickCount > 0) && (last_name.length !== 0)) ? { borderTop: "2px solid #0080005b" } : {}
+                                ((clickCount > 0) && (last_name.length === 0)) ? { borderTop: "2px solid #ff0000", borderBottom: "2px solid #ff0000" } : 
+                                ((clickCount > 0) && (last_name.length !== 0)) ? { borderTop: "2px solid #0080005b", borderBottom: "2px solid #0080005b" } : {}
                             }
                         />
+                        <label 
+                            htmlFor="last_name"
+                            style={
+                                ((clickCount > 0) && (last_name.length === 0)) ? { color: "#ff0000" } : 
+                                ((clickCount > 0) && (last_name.length !== 0)) ? { color: "#0080005b" } : {}
+                            }
+                        >
+                            {content.LAST_NAME}
+                        </label>
                     </div>
                     <div className="inputContainer">
                         <InputField 
                             id="email"
-                            className={((clickCount > 0) && (email.length === 0)) ? "errorField" : "inputField"}
+                            className="inputField"
                             onChange={onInputChange}
                             value={email}
-                            placeholder={content.EMAIL}
                             hasIcon
                             iconPosition="right"
                             iconName="email_main_4"
                             style={
-                                ((clickCount > 0) && (email.length === 0)) ? { borderTop: "2px solid #ff0000" } : 
-                                ((clickCount > 0) && (email.length !== 0)) ? { borderTop: "2px solid #0080005b" } : {}
+                                ((clickCount > 0) && (email.length === 0)) ? { borderTop: "2px solid #ff0000", borderBottom: "2px solid #ff0000" } : 
+                                ((clickCount > 0) && (email.length !== 0)) ? { borderTop: "2px solid #0080005b", borderBottom: "2px solid #0080005b" } : {}
                             }
                         />
+                        <label 
+                            htmlFor="email"
+                            style={
+                                ((clickCount > 0) && (email.length === 0)) ? { color: "#ff0000" } : 
+                                ((clickCount > 0) && (email.length !== 0)) ? { color: "#0080005b" } : {}
+                            }
+                        >
+                            {content.EMAIL}
+                        </label>
                     </div>
                     <div onClick={() => handleSelectClick(!selectIsOpen)} className="inputContainer">
                         {!selectIsOpen && (
@@ -89,14 +113,13 @@ const Contact = ({
                                 className="inputField"
                                 onChange={onInputChange}
                                 value={inquiry_type}
-                                placeholder={content.INQUIRY_TYPE}
                                 hasIcon
                                 iconPosition="right"
                                 iconName="add_circle_main_4"
                                 disabled={true}
                                 style={
-                                    selectIsOpen ? { borderTop: "2px solid #c900178a" } :
-                                    clickCount > 0 ? { borderTop: "2px solid #0080005b" } : {}
+                                    selectIsOpen ? { borderTop: "2px solid #c900178a", borderBottom: "2px solid #c900178a" } :
+                                    clickCount > 0 ? { borderTop: "2px solid #0080005b", borderBottom: "2px solid #0080005b" } : {}
                                 }
                             />
                         )}
@@ -113,8 +136,8 @@ const Contact = ({
                                     iconName="add_circle_harvard_red"
                                     disabled={true}
                                     style={
-                                        selectIsOpen ? { borderTop: "2px solid #c900178a" } :
-                                        clickCount > 0 ? { borderTop: "2px solid #0080005b" } : {}
+                                        selectIsOpen ? { borderTop: "2px solid #c900178a", borderBottom: "2px solid #c900178a" } :
+                                        clickCount > 0 ? { borderTop: "2px solid #0080005b", borderBottom: "2px solid #0080005b" } : {}
                                     }
                                 />
                                 <ul className="selectList">
@@ -122,21 +145,38 @@ const Contact = ({
                                 </ul>
                             </React.Fragment>
                         )}
+                        <label 
+                            htmlFor="inquiry_type" 
+                            style={
+                                selectIsOpen ? { color: "#c900178a" } : 
+                                clickCount > 0 ? { color: "#0080005b" } : {}
+                            }
+                        >
+                            {content.INQUIRY_TYPE}
+                        </label>
                     </div>
                 </div>
                 <div className="textAreaContainer">
                     <TextArea 
                         rows="8"
                         id="inquiry"
-                        className={((clickCount > 0) && (inquiry.length < 1)) ? "errorArea" : "textArea"}
+                        className="textArea"
                         onChange={onInputChange}
                         value={inquiry}
-                        placeholder={content.TEXTAREA_PLACEHOLDER}
                         style={
-                            ((clickCount > 0) && (inquiry.length < 1)) ? { borderTop: "2px solid #ff0000" } : 
-                            ((clickCount > 0) && (inquiry.length > 0)) ? { borderTop: "2px solid #0080005b" } : {}
+                            ((clickCount > 0) && (inquiry.length < 1)) ? { borderTop: "2px solid #ff0000", borderBottom: "2px solid #ff0000" } : 
+                            ((clickCount > 0) && (inquiry.length > 0)) ? { borderTop: "2px solid #0080005b", borderBottom: "2px solid #0080005b" } : {}
                         }
                     />
+                    <label 
+                        htmlFor="inquiry"
+                        style={
+                            ((clickCount > 0) && (inquiry.length === 0)) ? { color: "#ff0000" } : 
+                            ((clickCount > 0) && (inquiry.length !== 0)) ? { color: "#0080005b" } : {}
+                        }
+                    >
+                        {content.TEXTAREA_LABEL}
+                    </label>
                 </div>
                 <div className="buttonContainer">
                     <Button

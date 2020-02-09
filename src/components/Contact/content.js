@@ -11,10 +11,10 @@ export default {
         `Investment or Financial Advice Request`,
         `Real-Estate Market Findings or Area Updates`,
         `Questions Regarding the Privacy Policy`,
-        `Terms of Use Disagreement or to File a Complaint`,
+        `Terms of Use Issue or to File a Complaint`,
         `Help with Website or to Report Bugs`,
         `Non-Profit Partnership or Volunteer Opportunities`,
     ],
-    TEXTAREA_PLACEHOLDER: `Please enter your message here.`,
+    TEXTAREA_LABEL: `Please enter your message here.`,
     BUTTON_NAME_TYPES: [`Submit`, `Send`]
 };

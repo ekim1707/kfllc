@@ -18,17 +18,13 @@
             justify-content: space-between;
             .inputContainer {
                 position: relative;
+                display: flex;
+                flex-flow: column nowrap;
                 width: 23%;
                 .inputField {
                     width: 100%;
                     max-width: 100%;
                     margin-bottom: 0;
-                }
-                .errorField {
-                    @extend .inputField;
-                }
-                .errorField::placeholder {
-                    color: $error-red;
                 }
                 #inquiry_type:hover {
                     cursor: pointer;
@@ -37,7 +33,7 @@
                     position: absolute;
                     width: 230px;
                     right: 0;
-                    top: 40px;
+                    top: 70px;
                     background: $main-4;
                     color: $main-1;
                     box-shadow: $shadow;
@@ -57,13 +53,7 @@
         }
         .textAreaContainer {
             .textArea {
-                height: 340px;
-            }
-            .errorArea {
-                @extend .textArea;
-            }
-            .errorArea::placeholder {
-                color: $error-red;
+                height: 310px;
             }
         }
     }
