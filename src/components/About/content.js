@@ -23,7 +23,7 @@ export default {
     NEVER_FORGET: `We would like to pay a small tribute to...`,
     PAT_TILLMAN_NAME_LABEL: `Patrick Daniel Tillman`,
     PAT_TILLMAN_LIFE_RANGE_LABEL: `November 6, 1976 – April 22, 2004`,
-    PAT_TILLMAN_DESCRIPTION_LABEL: `Scholar, Athlete, Adventurer, Philosopher, Hero, Guardian, and true Role-model`,
+    PAT_TILLMAN_DESCRIPTION_LABEL: `Scholar, Athlete, Adventurer, Philosopher, Hero, Guardian, and true Role-Model`,
     EMERSON_QUOTE: `What I must do is all that concerns me, not what the people think... you will always find those who think they know what is your duty
     better than you yourself know it. It is easy in the world to live after the world's opinion; it is easy in solitude to live 
     after our own; but the great man is he who in the midst of the crowd keeps with perfect sweetness the independence of solitude.`,
