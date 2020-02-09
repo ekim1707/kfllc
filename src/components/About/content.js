@@ -16,7 +16,7 @@ export default {
     PRIVACY_DISCLAIMER: `we aim to keep the operations of 
     our partnership at the highest level of discretion at all times,`,
     PART_SEVEN: `a Contact section
-    may be found in the upper navbar of this page for all related inquiries.`,
+    may be found in the upper navbar of this page for all relevant inquiries.`,
     END_DISCLAIMER: `** PLEASE NOTE ** The LLC firmly holds its right to refuse response
     to any or all inquiries believed to be of malicious intent and/or not keeping in line with the direction of its goals.`,
     APPRECIATION: `We appreciate your understanding in that regard.`,
