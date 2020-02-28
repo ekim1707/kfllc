@@ -1,13 +1,10 @@
 import React from 'react';
 import "./styles.scss";
 import content from "./content";
-import NavContainer from "../../../containers/NavContainer";
-import FooterNav from "../../FooterNav";
 
 const Help = () => {
     return (
         <div className="helpContainer">
-            <NavContainer />
             <section className="helpContentContainer">
                 <div className="aboutContentContainer">
                     <header className="header"><h2>{content.HELP_HEADER}</h2></header>
@@ -37,7 +34,6 @@ const Help = () => {
                     <p className="location">{content.LOCATION}</p>
                 </div>
             </section>
-            <FooterNav />
         </div>
     );
 };

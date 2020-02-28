@@ -1,11 +1,9 @@
 import React from 'react';
 import "./styles.scss";
 import content from "./content";
-import NavContainer from "../../containers/NavContainer";
 import Literature from "./Literature";
 import Video from "./Video";
 import Other from "./Other";
-import FooterNav from "../FooterNav";
 
 const Resources = ({
     isSelected,
@@ -18,7 +16,6 @@ const Resources = ({
     } = isSelected;
     return (
         <div className="resourcesContainer">
-            <NavContainer />
             <section className="mediaBox">
                 <ul className="mediaBoxTabContainer">
                     <div className="mediaBoxTabBackground">
@@ -55,7 +52,6 @@ const Resources = ({
                     {other && <Other />}
                 </div>
             </section>
-            <FooterNav />
         </div>
     );
 };

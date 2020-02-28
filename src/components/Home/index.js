@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import "./styles.scss";
 import content from "./content";
-import NavContainer from "../../containers/NavContainer";
 import Icon from "../../common/Icon";
-import FooterNav from "../FooterNav";
 
 const Home = () => {
     let [interval, setIntervalFunction] = useState(0);
@@ -15,7 +13,6 @@ const Home = () => {
 
     return (
         <div className="homeContainer">
-            <NavContainer />
             <section className="headerContainer">
                 <h1 className="title">{content.TITLE}</h1>
                 <h1 className="headerLabels">{content.HEADER_ARRAY[interval]}</h1>
@@ -50,7 +47,6 @@ const Home = () => {
             <section className="bodyContainer">
                 <h3>{content.FOOTER}</h3>
             </section>
-            <FooterNav />
         </div>
     );
 };

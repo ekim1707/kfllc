@@ -1,11 +1,9 @@
 import React from 'react';
 import "./styles.scss";
 import content from "./content";
-import NavContainer from "../../containers/NavContainer";
 import InputField from "../../common/InputField";
 import TextArea from "../../common/TextArea";
 import Button from "../../common/Button";
-import FooterNav from "../FooterNav";
 
 const Contact = ({ 
     formData,
@@ -30,7 +28,6 @@ const Contact = ({
 
     return (
         <div onClick={selectIsOpen ? () => handleSelectClick(false) : ""} className="contactContainer">
-            <NavContainer />
             <h5 className="contactFormHeader">{content.HEADER}</h5>
             <form className="formContainer">
                 <div className="headerInputRow">
@@ -187,7 +184,6 @@ const Contact = ({
                     />
                 </div>
             </form>
-            <FooterNav />
         </div>
     );
 };

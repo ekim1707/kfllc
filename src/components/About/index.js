@@ -1,15 +1,12 @@
 import React from 'react';
 import "./styles.scss";
 import content from "./content";
-import NavContainer from "../../containers/NavContainer";
 import CardSet from "./CardSet";
 import Icon from "../../common/Icon";
-import FooterNav from "../FooterNav";
 
 const About = () => {
     return (
         <div className="aboutContainer">
-            <NavContainer />
             <section className="cardSetContainer"><CardSet data={content.DATA} /></section>
             <section className="contentContainer">
                 <p><strong>{content.KFLLC_LABEL}</strong>&nbsp;{content.PART_ONE}&nbsp;{content.PART_TWO}</p>
@@ -47,7 +44,6 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <FooterNav />
         </div>
     );
 };
