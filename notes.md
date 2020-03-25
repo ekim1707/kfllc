@@ -25,7 +25,7 @@ There could be no two words that better define the LLC to begin with:
 (1) Kim (the name of my parents who started it all)
 (2) Family
 
-I am constantly reminded these days of how lucky I was to have the amazing parents and family that I was just undeservedly born into. And admist all the pain and suffering that continues to be ignored or go unheard in the world on a daily basis, I am also constantly reminded of how many people were just undeservedly born into this world completely lacking the support that my family gave me. We're all in this together, and we all should be willing to do all that is necessary for the sake of good.
+I am constantly reminded these days of how lucky I was to have the amazing parents and family that I was just undeservedly born into. And admist all the pain and suffering that continues to be ignored or go unheard in the world on a daily basis, I am also constantly reminded of how many people were just undeservedly born into this world completely lacking the support that my family gave me. We're all in this together, and we all should be willing to do all that is necessary for the sake of what is right.
 
 My parents could have used all their free time attending fancy dinner parties or purchasing sports cars, like a lot of their social circle did. Instead, while nobody else was paying attention, they toiled away in their office at home to build this LLC for my sister and I.
 
