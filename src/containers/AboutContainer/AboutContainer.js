@@ -8,7 +8,7 @@ const AboutContainer = ({ data = [], getAdminDataDispatchAction }) => {
     useEffect(() => {
         getAdminDataDispatchAction();
     }, [getAdminDataDispatchAction]);
-    return (<About data={data} />);
+    return <About data={data} />;
 };
 
 const dispatchActions = (dispatch) => ({
