@@ -29,6 +29,6 @@ I am constantly reminded these days of how lucky I was to have the amazing paren
 
 My parents could have used all their free time attending fancy dinner parties or purchasing sports cars, like a lot of their social circle did. Instead, while nobody else was paying attention, they toiled away in their office at home to build this LLC for my sister and I.
 
-I will never forget all of their sacrifices and their perpertually unconditional and amazing love.
+I will never forget all of their sacrifices and their persistently unconditional and amazing love.
 
 Thank you for your time.
