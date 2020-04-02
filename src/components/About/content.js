@@ -41,8 +41,8 @@ export default {
             title: `Founder and Partner`,
             date_of_birth: `1952-11-26`,
             occupation: `Gastroenterologist`,
-            education_1: `Yonsei University`,
-            education_2: ``,
+            education_1: `Yonsei University College of Medicine`,
+            education_2: `Yonsei University`,
             education_3: ``,
         },
         {
@@ -52,8 +52,8 @@ export default {
             title: `Partner, Manager, Accountant`,
             date_of_birth: `1953-11-25`,
             occupation: `House-wife`,
-            education_1: `Ewha University`,
-            education_2: ``,
+            education_1: `Ewha University School of Medicine`,
+            education_2: `Ewha University`,
             education_3: ``,
         },
         {
@@ -63,9 +63,9 @@ export default {
             title: `Partner, Manager, Business Advisor`,
             date_of_birth: `1983-11-18`,
             occupation: `Founder/CEO of Spark Wonder Books`,
-            education_1: `Swarthmore College`,
+            education_1: `Harvard Business School`,
             education_2: `The London School of Economics`,
-            education_3: `Harvard Business School`,
+            education_3: `Swarthmore College`,
         },
         {
             first_name: `Eugene`,
@@ -73,10 +73,11 @@ export default {
             last_name: `Kim`,
             title: `Partner and Manager`,
             date_of_birth: `1985-06-20`,
-            occupation: `Software Developer and Student`,
-            education_1: `Boston College`,
-            education_2: `UMBC`,
-            education_3: `Howard Community College`,
+            occupation: `Software Developer at iVoyant LLC`,
+            education_1: `Johns Hopkins University`,
+            education_2: `Howard Community College`,
+            education_3: `UMBC`,
+            education_4: `Boston College`,
         }
     ]
 };

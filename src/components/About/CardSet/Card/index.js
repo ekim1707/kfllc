@@ -13,13 +13,14 @@ const Card = ({ data, i }) => {
         occupation,
         education_1,
         education_2,
-        education_3
+        education_3,
+        education_4
     } = data;
     const split = date_of_birth.split('-');
     const formattedDate = new Date(split[0], split[1] - 1, split[2]).toLocaleDateString({},
         {timeZone:"UTC",month:"long", day:"2-digit", year:"numeric"}
     );
-    const educationArray = [education_1, education_2, education_3].map(education => <li className="education">{education}</li>)
+    const educationArray = [education_1, education_2, education_3, education_4].map(education => <li className="education">{education}</li>)
     
     return (
         (first_name !== "Tiffany" && first_name !== "Eric" && (
