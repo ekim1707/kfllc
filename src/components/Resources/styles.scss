@@ -2,7 +2,7 @@
 
 .resourcesContainer {
     @extend .bodyContainer;
-    height: 100vh;
+    height: calc(100vh - 50px);
     background: $main-4;
     overflow: hidden;
     .mediaBox {
@@ -38,11 +38,5 @@
             color: $main-1;
             border-radius: 0 5px 0 0;
         }
-    }
-    .footerNavContainer {
-        position: fixed;
-        width: 100%;
-        left: 0;
-        bottom: 0;
     }
 }

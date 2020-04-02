@@ -4,12 +4,14 @@
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 50px;
     background: $harvard-red;
     color: $main-1;
     .footerLinks {
         width: 10%;
         color: $main-1;
-        padding: 20px;
+        padding: 0 20px;
         text-align: center;
     }
     .copyrightContainer {

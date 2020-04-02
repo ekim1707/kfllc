@@ -2,7 +2,7 @@
 
 .contactContainer {
     @extend .bodyContainer;
-    height: 100vh;
+    height: calc(100vh - 50px);
     background: $main-4;
     color: $harvard-red;
     .contactFormHeader {
@@ -56,11 +56,5 @@
                 height: 310px;
             }
         }
-    }
-    .footerNavContainer {
-        position: fixed;
-        width: 100%;
-        left: 0;
-        bottom: 0;
     }
 }
