@@ -1,7 +1,7 @@
 # The Kim Family LLC Website 
 ## Specializing in investment and management of commercial and real-estate properties
 
-The website is available to be viewed in its beta-form at: https://kimfamily-llc.com
+Video: https://youtu.be/fCcHIh1t2ik
 
 ## Example of what the website looks like...
 
