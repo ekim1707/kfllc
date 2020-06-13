@@ -6,7 +6,7 @@ const Other = () => {
     return (
         <section className="otherContainer">
             <div className="otherContent">
-                <h1>Nothing here yet. Check back later!</h1>
+                <h1>{content.MESSAGE}</h1>
             </div>
         </section>
     );

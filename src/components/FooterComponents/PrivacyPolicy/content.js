@@ -11,6 +11,5 @@ export default {
     
     Thank you.
     
-    The Kim Family LLC
-    Atlanta, GA`
+    The Kim Family LLC`
 };

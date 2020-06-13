@@ -1,6 +1,5 @@
 import {
-    GET_ADMIN_DATA_SUCCESS,
-    GET_ADMIN_DATA_FAILURE
+    GET_ADMIN_DATA_SUCCESS
 } from "../actions/getActions";
 
 const initialState = {

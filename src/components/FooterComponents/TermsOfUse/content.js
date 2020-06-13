@@ -153,6 +153,5 @@ export default {
      
     In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please go to the Contact section found in the upper navbar and submit a formal inquiry. 
      
-    The Kim Family LLC
-    Atlanta, GA`
+    The Kim Family LLC`
 }
