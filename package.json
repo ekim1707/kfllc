@@ -7,7 +7,6 @@
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "emailjs-com": "^2.4.1",
-    "history": "^4.10.1",
     "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",

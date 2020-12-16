@@ -5,11 +5,10 @@ import Icon from "../../common/Icon";
 
 const Home = () => {
     let [interval, setIntervalFunction] = useState(0);
-    setInterval(() => {setIntervalFunction(interval = interval === 4 ? 0 : interval + 1);}, 5000);
+    setInterval(() => setIntervalFunction(interval = interval === 4 ? 0 : interval + 1), 5000);
     const [clickCount, setClickCount] = useState(0);
-    const handleArrowClick = (type) => {
+    const handleArrowClick = (type) => 
         type === "left" ? setClickCount(clickCount - 1) : setClickCount(clickCount + 1);
-    }
 
     return (
         <div className="homeContainer">

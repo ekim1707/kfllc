@@ -1,6 +1,5 @@
 import React from 'react';
 import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
-import history from "./history";
 import NavContainer from "./containers/NavContainer";
 import HomeContainer from "./containers/HomeContainer";
 import AboutContainer from "./containers/AboutContainer";
@@ -11,10 +10,10 @@ import TermsOfUse from "./components/FooterComponents/TermsOfUse";
 import Help from "./components/FooterComponents/Help";
 import FooterNav from "./components/FooterNav";
 
-export default (props) => {
+export default () => {
 
     return (
-        <Router history={history}>
+        <Router>
             <NavContainer />
                 <Switch>
                     <Route path="/" component={HomeContainer} exact />
